@@ -1,3 +1,9 @@
+package store;
+
+import flowers.Flower;
+import flowers.FlowerBucket;
+import flowers.FlowerPack;
+
 import java.util.ArrayList;
 import java.util.List;
 

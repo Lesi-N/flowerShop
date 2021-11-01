@@ -1,5 +1,12 @@
+package storeTests;
+
+import flowers.Flower;
+import flowers.FlowerBucket;
+import flowers.FlowerPack;
+import flowers.FlowerType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import store.Store;
 
 import static org.junit.jupiter.api.Assertions.*;
 

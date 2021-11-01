@@ -1,3 +1,8 @@
+package flowerTests;
+
+import flowers.Flower;
+import flowers.FlowerPack;
+import flowers.FlowerType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -17,7 +22,7 @@ class FlowerPackTest {
 
     @Test
     void price() {
-        assertEquals(12, flowerPack.price());
+        assertEquals(12, flowerPack.getPrice());
     }
 
     @Test

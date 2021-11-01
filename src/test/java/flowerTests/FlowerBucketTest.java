@@ -1,3 +1,9 @@
+package flowerTests;
+
+import flowers.Flower;
+import flowers.FlowerBucket;
+import flowers.FlowerPack;
+import flowers.FlowerType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -34,6 +40,6 @@ class FlowerBucketTest {
     @Test
     void price() {
         // 5 * 10 -> roses
-        assertEquals(50, flowerBucket.price());
+        assertEquals(50, flowerBucket.getPrice());
     }
 }

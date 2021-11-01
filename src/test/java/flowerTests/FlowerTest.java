@@ -1,3 +1,8 @@
+package flowerTests;
+
+import flowers.Flower;
+import flowers.FlowerType;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class FlowerTest {
