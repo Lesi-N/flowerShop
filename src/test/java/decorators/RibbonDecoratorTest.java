@@ -23,6 +23,6 @@ class RibbonDecoratorTest {
 
     @Test
     void getDescription() {
-        assertEquals("Ribbon Decorator", flower.getDescription());
+        assertEquals("Ribbon Decorator for Flowerbucket: ", flower.getDescription());
     }
 }

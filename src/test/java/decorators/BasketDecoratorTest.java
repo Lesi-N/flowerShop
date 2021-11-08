@@ -22,6 +22,6 @@ class BasketDecoratorTest {
 
     @Test
     void getDescription() {
-        assertEquals("Basket Decorator", flower.getDescription());
+        assertEquals("Basket Decorator for Flowerbucket: ", flower.getDescription());
     }
 }
