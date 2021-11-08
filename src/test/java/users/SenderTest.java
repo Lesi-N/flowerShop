@@ -29,6 +29,6 @@ class SenderTest {
     void getId() {
         assertNotEquals(sen1.getId(), sen2.getId());
         assertEquals(sen2.getId() - sen1.getId(), 1);
-        assertEquals(sender.getId() - sen2.getId(), 2);
+        assertEquals(sen2.getId() - sender.getId(), 2);
     }
 }

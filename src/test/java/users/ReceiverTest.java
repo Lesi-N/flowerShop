@@ -30,6 +30,6 @@ class ReceiverTest {
     void getId() {
         assertNotEquals(rec1.getId(), rec2.getId());
         assertEquals(rec2.getId() - rec1.getId(), 1);
-        assertEquals(receiver.getId() - rec2.getId(), 2);
+        assertEquals(rec2.getId() - receiver.getId(), 2);
     }
 }
