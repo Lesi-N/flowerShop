@@ -1,7 +1,9 @@
 package decorators;
 
 import flowers.Item;
+import lombok.Getter;
 
+@Getter
 public class ItemDecorator extends Item {
     private Item item;
 
